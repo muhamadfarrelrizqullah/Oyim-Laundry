@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .member-icon {
@@ -16,6 +17,7 @@ body {
 .member-name {
     font-size: 24pt;
 }
+
 
 .img-fit {
     object-fit: cover;

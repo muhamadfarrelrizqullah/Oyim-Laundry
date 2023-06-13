@@ -3,22 +3,17 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 body {
     padding-top: 56px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
     height: 92vh;
 }
 
-.bg {
-    background: linear-gradient(45deg, #B799FF, #ACBCFF, #AEE2FF, #E6FFFD);
-    background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
-}
-
-.bg-purple {
+.bg-skypurple {
     background-color: #B799FF;
 }
 
@@ -34,14 +29,14 @@ header {
     overflow-x: auto;
 }
 
-@keyframes color{
-    0%{
-       background-position: 0 50%;
-    }
-    50%{
-       background-position: 100% 50%;
-    }
-    100%{
-       background-position: 0 50%;
-    }
- }
+.card-rd {
+    border-radius: 5px 5px 20px 20px;
+}
+
+.card-rd-full {
+    border-radius: 40px;
+}
+
+.card-rd-foto {
+    border-radius: 40px 40px 0 0;
+}

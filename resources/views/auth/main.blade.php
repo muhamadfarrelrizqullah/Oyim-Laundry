@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-primary">
+<body class="bg-skypurple">
 
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container">
