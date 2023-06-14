@@ -63,16 +63,16 @@
                                     <table class="table">
                                         <tbody>
                                             <tr>
-                                                <td>Line</td>
-                                                <td>@idline</td>
+                                                <td>Email</td>
+                                                <td>oyimlaundry@gmail.com</td>
                                             </tr>
                                             <tr>
                                                 <td>Whatsapp</td>
-                                                <td>081999999</td>
+                                                <td>081234567890</td>
                                             </tr>
                                             <tr>
                                                 <td>Telepon</td>
-                                                <td>(0361)123456</td>
+                                                <td>(0812)34567890</td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2">Ketentuan: Hanya melayani saat jam kerja</td>

@@ -17,7 +17,8 @@ class ItemSeeder extends Seeder
     {
         Item::insert([
             ['name' => 'Baju', 'created_at' => now(), 'updated_at' => now()],
-            ['name' => 'Celana', 'created_at' => now(), 'updated_at' => now()]
+            ['name' => 'Celana', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Jaket', 'created_at' => now(), 'updated_at' => now()]
         ]);
     }
 }

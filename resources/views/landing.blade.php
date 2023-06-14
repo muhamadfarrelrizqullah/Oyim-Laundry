@@ -186,50 +186,50 @@
             <div class="row">
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.jpg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Farrel.png') }}" class="card-img-top card-rd-foto"
                             alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Muhamad Farrel</p>
+                            <p class="card-text">Mellitya Silviandro Hening</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.jpg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Farrel.jpeg') }}" class="card-img-top card-rd-foto"
                             alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Muhamad Farrel</p>
+                            <p class="card-text">Muhamad Farrel Rizqullah</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.jpg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Maidy.jpeg') }}" class="card-img-top card-rd-foto"
                             alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Muhamad Farrel</p>
+                            <p class="card-text">Maidy Putry Joshi</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.jpg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Adit.jpg') }}" class="card-img-top card-rd-foto"
                             alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Muhamad Farrel</p>
+                            <p class="card-text">Aditya Kuncara Bakti</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.jpg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Naim.jpeg') }}" class="card-img-top card-rd-foto"
                             alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Muhamad Farrel</p>
+                            <p class="card-text">Achmad Ainun Naim</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-9 mb-4">
+                <div class="col-9 mt-4">
                     <div class="card card-rd-full p-4">
                         <div class="text-center mb-4 pb-2">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-quotes/bulb.webp"

@@ -91,22 +91,22 @@
                                     <label for="banyak" class="col-sm-2 col-form-label">Banyak</label>
                                     <div class="col-sm-2">
                                         <div class="input-group">
-                                            <span class="input-group-btn">
+                                            {{-- <span class="input-group-btn">
                                                 <button type="button" class="quantity-left-minus btn btn-danger btn-number"
                                                     data-type="minus" data-field="">
                                                     <i class="fas fa-minus"></i>
                                                 </button>
-                                            </span>
+                                            </span> --}}
                                             <input type="text" id="quantity" name="quantity"
                                                 class="form-control input-number" value="1" min="1"
                                                 max="100">
-                                            <span class="input-group-btn">
+                                            {{-- <span class="input-group-btn">
                                                 <button type="button"
                                                     class="quantity-right-plus btn btn-success btn-number" data-type="plus"
                                                     data-field="">
                                                     <i class="fas fa-plus"></i>
                                                 </button>
-                                            </span>
+                                            </span> --}}
                                         </div>
                                     </div>
                                     <div class="col-sm-4">
