@@ -3,9 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Enums\Role;
+use App\Enums\Service;
 use App\Http\Controllers\Controller;
 use App\Models\Transaction;
 use App\Models\User;
+use App\Models\ServiceType;
+use App\Models\PriceList;
+use App\Models\Voucher;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -32,6 +36,14 @@ class DashboardController extends Controller
 
         $transactionsCount = Transaction::count();
 
+        $vouchersCount = Voucher::count();
+
+        $pricelistsCount = PriceList::avg('price');
+
+        $transactionsPriorityCount = Transaction::where('service_type_id', Service::Priority)->count();
+        
+        $transactionsRegularCount = Transaction::where('service_type_id', Service::Regular)->count();
+
         $priorityTransactions = Transaction::whereNull('finish_date')
             ->with('status')
             ->where('service_type_id', 2)
@@ -45,6 +57,10 @@ class DashboardController extends Controller
             'membersCount',
             'transactionsCount',
             'priorityTransactions',
+            'transactionsPriorityCount',
+            'transactionsRegularCount',
+            'vouchersCount',
+            'pricelistsCount'
         ));
     }
 }
