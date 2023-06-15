@@ -87,7 +87,7 @@
         </div>
         <div class="row mt-3">
             <div class="col-4 text-center">
-                <p>Badung, {{ date('d F Y') }}</p>
+                <p>Lowokwaru, {{ date('d F Y') }}</p>
                 <br>
                 <br>
                 <br>
@@ -95,7 +95,7 @@
             </div>
             <div class="col-4"></div>
             <div class="col-4 text-center">
-                <p>Badung, {{ date('d F Y') }}</p>
+                <p>Lowokwaru, {{ date('d F Y') }}</p>
                 <br>
                 <br>
                 <br>

@@ -45,20 +45,20 @@
                     <p>Voucher</p>
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a href="{{ route('admin.complaint-suggestions.index') }}"
                     class="nav-link {{ request()->routeIs('admin.complaint-suggestions.index') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-sticky-note"></i>
                     <p>Saran / Komplain</p>
                 </a>
-            </li>
-            <li class="nav-item">
+            </li> --}}
+            {{-- <li class="nav-item">
                 <a href="{{ route('admin.reports.index') }}"
                     class="nav-link {{ request()->routeIs('admin.reports.index') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-file-alt"></i>
                     <p>Laporan Keuangan</p>
                 </a>
-            </li>
+            </li> --}}
             <li class="nav-item">
                 <a href="{{ route('profile.index') }}"
                     class="nav-link {{ request()->routeIs('profile.index') ? 'active' : '' }}">

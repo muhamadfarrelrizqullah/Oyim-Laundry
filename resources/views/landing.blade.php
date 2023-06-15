@@ -135,7 +135,7 @@
             <div class="row flex-row flex-nowrap kategori">
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Baju.png') }}" class="card-img-top" alt="">
+                        <img src="{{ asset('img/landing/Baju.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Baju</p>
                         </div>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Celana.png') }}" class="card-img-top" alt="">
+                        <img src="{{ asset('img/landing/Celana.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Celana</p>
                         </div>
@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Jaket.png') }}" class="card-img-top" alt="">
+                        <img src="{{ asset('img/landing/Jaket.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Jaket</p>
                         </div>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Jas.png') }}" class="card-img-top" alt="">
+                        <img src="{{ asset('img/landing/Jas.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Jas</p>
                         </div>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Topi.png') }}" class="card-img-top" alt="">
+                        <img src="{{ asset('img/landing/Topi.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Topi</p>
                         </div>
@@ -186,7 +186,7 @@
             <div class="row">
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.png') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Tya.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Mellitya Silviandro Hening</p>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Farrel.jpeg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Farrel.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Muhamad Farrel Rizqullah</p>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Maidy.jpeg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Maidy.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Maidy Putry Joshi</p>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Adit.jpg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Adit.jpg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Aditya Kuncara Bakti</p>
@@ -222,7 +222,7 @@
                 </div>
                 <div class="col-3 mb-4">
                     <div class="card card-rd-full">
-                        <img src="{{ asset('img/landing/Naim.jpeg') }}" class="card-img-top card-rd-foto"
+                        <img src="{{ asset('img/landing/Naim.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Achmad Ainun Naim</p>
@@ -231,22 +231,20 @@
                 </div>
                 <div class="col-9 mt-4">
                     <div class="card card-rd-full p-4">
-                        <div class="text-center mb-4 pb-2">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-quotes/bulb.webp"
+                        <div class="text-center mb-4">
+                            <img src="{{ asset('img/landing/Logo.png') }}"
                                 alt="Bulb" width="100">
                         </div>
                         <figure class="text-center mb-0">
                             <blockquote class="blockquote">
                                 <p class="pb-3">
                                     <i class="fas fa-quote-left fa-xs text-primary"></i>
-                                    <span class="lead font-italic">Many of life's failures are people who did not
-                                        realize how
-                                        close they were to success when they gave up.</span>
+                                    <span class="lead font-italic">Sebut saja Pelakor <br>Pembersih Laundryan Kotor</span>
                                     <i class="fas fa-quote-right fa-xs text-primary"></i>
                                 </p>
                             </blockquote>
                             <figcaption class="blockquote-footer mb-0">
-                                Thomas Edison
+                                Pragos D. Virgoun
                             </figcaption>
                         </figure>
                     </div>
