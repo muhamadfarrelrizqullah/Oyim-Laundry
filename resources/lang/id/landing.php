@@ -4,6 +4,6 @@ return [
     'langtext' => 'Bahasa',
     'welcome' => 'Selamat datang di Oyim Laundry' ,
     'loginOrRegister' => 'Masuk / Daftar',
-    'tagline' => 'Dapatkan pengalaman terbaik dalam layanan laundry',
+    'tagline' => 'Mencuci pakaian menjadi lebih mudah dan nyaman dengan layanan laundry online kami.',
     'why' => 'Kenapa memilih layanan laundry kami?'
 ];

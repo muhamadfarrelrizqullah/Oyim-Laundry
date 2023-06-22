@@ -23,6 +23,8 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -75,16 +77,16 @@
 
     <!-- Page Content -->
     <section class="p-5 text-center bg-deepskyblue">
-        <h3 class="font-weight-bold">@lang('landing.why')</h3>
+        <h3 class="font-weight-bold" data-aos="fade-in" data-aos-duration="1000">@lang('landing.why')</h3>
     </section>
 
     <section class="kelebihan bg-skypurple text-white">
         <div class="container p-5">
-            <div class="row">
+            <div class="row" data-aos="slide-left" data-aos-duration="800">
                 <div class="col-lg-6">
                     <h4>Peralatan Lengkap dan Canggih</h4>
-                    <p>Laundry kami menggunakan peralatan yang cukup lengkap dan canggih. Peralatan kami memungkinkan
-                        baju tidak perlu dijemur dan mengurangi debu pada baju</p>
+                    <p>Kami menginvestasikan dalam peralatan cuci dan pengering terkini yang menggunakan teknologi mutakhir. Hal ini memastikan
+                        pencucian pakaian Anda dilakukan dengan cepat, efisien, dan hasil yang memuaskan.</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid d-none d-lg-block" src="{{ asset('img/landing/alat.png') }}" alt=""
@@ -94,29 +96,29 @@
         </div>
     </section>
 
-    <section class="kelebihan bg-skyblue text-white">
+    <section class="kelebihan bg-skyblue text-white" >
         <div class="container p-5">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row" data-aos="slide-right" data-aos-duration="800">
+                <div class="col-lg-6" >
                     <img class="img-fluid d-none d-lg-block" src="{{ asset('img/landing/tipebaju.png') }}"
                         alt="" srcset="">
                 </div>
                 <div class="col-lg-6">
-                    <h4>Segala Tipe Pakaian</h4>
-                    <p>Laundry kami menerima segala tipe pakaian mulai dari baju, celana, jas, gorden, bed cover,
-                        selimut, seprei, karpet, dan lain lain.</p>
+                    <h4>Kualitas dan Kebersihan Terjamin</h4>
+                    <p>Kami memahami betapa pentingnya menjaga kebersihan dan kualitas pakaian Anda. Oleh karena itu, kami menggunakan deterjen 
+                        yang berkualitas tinggi dan proses pencucian yang efektif untuk memberikan hasil terbaik. Pakaian Anda akan kembali bersih, wangi, dan terawat dengan baik.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="kelebihan bg-skypurple text-white">
+    <section class="kelebihan bg-skypurple text-white" >
         <div class="container p-5">
-            <div class="row">
+            <div class="row" data-aos="slide-left" data-aos-duration="800">
                 <div class="col-lg-6">
-                    <h4>Pegawai Profesional</h4>
-                    <p>Laundry kami terdiri dari pegawai-pegawai yang profesional yang mampu bekerja dalam tim dengan
-                        cukup baik dan handal di bidangnya sehingga membuat laundry kami minim kesalahan</p>
+                    <h4>Pegawai Profesional dan Berpengalaman</h4>
+                    <p>Kami memiliki tim yang terlatih dan berpengalaman dalam menjalankan layanan laundry. 
+                        Mereka siap memberikan perhatian terhadap setiap detail pakaian Anda dan memberikan layanan yang ramah serta responsif.</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid d-none d-lg-block" src="{{ asset('img/landing/pegawai.png') }}"
@@ -127,11 +129,11 @@
     </section>
 
     <section class="text-center p-5 bg-deepskyblue">
-        <h3 class="font-weight-bold">Apa saja yang bisa kami laundry?</h3>
+        <h3 class="font-weight-bold" data-aos="fade-in" data-aos-duration="1000">Apa saja yang bisa kami laundry?</h3>
     </section>
 
     <section class="bg-skypurple p-5 text-center">
-        <div class="container">
+        <div class="container" data-aos="slide-up" data-aos-duration="800">
             <div class="row flex-row flex-nowrap kategori">
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
@@ -178,13 +180,13 @@
     </section>
 
     <section class="text-center p-5 bg-deepskyblue ">
-        <h3 class="font-weight-bold">Team kami!</h3>
+        <h3 class="font-weight-bold" data-aos="fade-in" data-aos-duration="1000">Team kami!</h3>
     </section>
 
     <section class="bg-skypurple p-5 text-center">
         <div class="container">
             <div class="row">
-                <div class="col-3 mb-4">
+                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Tya.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -193,7 +195,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Farrel.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -202,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Maidy.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -211,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Adit.jpg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -220,7 +222,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Naim.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -229,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-9 mt-4">
+                <div class="col-9 mt-4" data-aos="slide-left" data-aos-duration="800">
                     <div class="card card-rd-full p-4">
                         <div class="text-center mb-4">
                             <img src="{{ asset('img/landing/Logo.png') }}"
@@ -254,12 +256,12 @@
     </section>
 
     <section class="text-center p-5 bg-deepskyblue ">
-        <h3 class="font-weight-bold">Temukan kami!</h3>
+        <h3 class="font-weight-bold" data-aos="fade-in" data-aos-duration="1000">Temukan kami!</h3>
     </section>
 
     <section class="text-white bg-skypurple">
         <div class="container p-5">
-            <div class="row">
+            <div class="row" data-aos="fade-in" data-aos-duration="800">
                 <div class="col-md-6 mb-4 mb-sm-0">
                     <h5>Alamat</h5>
                     <p>Jl. Kembang Turi No.8A, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur</p>
@@ -287,6 +289,10 @@
         <!-- /.container -->
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
