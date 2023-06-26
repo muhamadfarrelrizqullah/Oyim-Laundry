@@ -133,11 +133,11 @@
     </section>
 
     <section class="bg-skypurple p-5 text-center">
-        <div class="container" data-aos="slide-up" data-aos-duration="800">
+        {{-- <div class="container" data-aos="slide-up" data-aos-duration="800">
             <div class="row flex-row flex-nowrap kategori">
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Baju.png') }}" class="card-img-top p-2" alt="">
+                        <img src="{{ asset('img/landing/Comp/Baju.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Baju</p>
                         </div>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Celana.png') }}" class="card-img-top p-2" alt="">
+                        <img src="{{ asset('img/landing/Comp/Celana.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Celana</p>
                         </div>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Jaket.png') }}" class="card-img-top p-2" alt="">
+                        <img src="{{ asset('img/landing/Comp/Jaket.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Jaket</p>
                         </div>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Jas.png') }}" class="card-img-top p-2" alt="">
+                        <img src="{{ asset('img/landing/Comp/Jas.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Jas</p>
                         </div>
@@ -169,13 +169,50 @@
                 </div>
                 <div class="col-4 mb-4">
                     <div class="card card-rd">
-                        <img src="{{ asset('img/landing/Topi.png') }}" class="card-img-top p-2" alt="">
+                        <img src="{{ asset('img/landing/Comp/Topi.png') }}" class="card-img-top p-2" alt="">
                         <div class="card-body d-none d-lg-block">
                             <p class="card-text">Topi</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div> --}}
+
+        <div class="container" data-aos="slide-up" data-aos-duration="800">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="{{ asset('img/landing/Baju.png') }}" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{{ asset('img/landing/Celana.png') }}" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{{ asset('img/landing/Jaket.png') }}" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{{ asset('img/landing/Jas.png') }}" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{{ asset('img/landing/Topi.png') }}" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
     </section>
 
@@ -186,7 +223,7 @@
     <section class="bg-skypurple p-5 text-center">
         <div class="container">
             <div class="row">
-                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
+                <div class="col-3 mb-4">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Tya.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -195,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
+                <div class="col-3 mb-4">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Farrel.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -204,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
+                <div class="col-3 mb-4">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Maidy.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -213,7 +250,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
+                <div class="col-3 mb-4">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Adit.jpg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -222,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4" data-aos="fade-out" data-aos-duration="800">
+                <div class="col-3 mb-4">
                     <div class="card card-rd-full">
                         <img src="{{ asset('img/landing/Naim.jpeg') }}" class="card-img-top card-rd-foto p-2"
                             alt="">
@@ -234,7 +271,7 @@
                 <div class="col-9 mt-4" data-aos="slide-left" data-aos-duration="800">
                     <div class="card card-rd-full p-4">
                         <div class="text-center mb-4">
-                            <img src="{{ asset('img/landing/Logo.png') }}"
+                            <img src="{{ asset('img/landing/Logo.jpg') }}"
                                 alt="Bulb" width="100">
                         </div>
                         <figure class="text-center mb-0">
@@ -261,7 +298,7 @@
 
     <section class="text-white bg-skypurple">
         <div class="container p-5">
-            <div class="row" data-aos="fade-in" data-aos-duration="800">
+            <div class="row">
                 <div class="col-md-6 mb-4 mb-sm-0">
                     <h5>Alamat</h5>
                     <p>Jl. Kembang Turi No.8A, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur</p>
@@ -284,7 +321,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; {{ config('app.name') }} 2020</p>
+            <p class="m-0 text-center text-white">Copyright &copy; {{ config('app.name') }} 2023</p>
         </div>
         <!-- /.container -->
     </footer>
