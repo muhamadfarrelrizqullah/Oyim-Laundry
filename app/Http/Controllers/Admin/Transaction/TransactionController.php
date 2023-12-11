@@ -84,19 +84,19 @@ class TransactionController extends Controller
         $services = Service::all();
         $serviceTypes = ServiceType::all();
 
-        // Check if there is an active transaction in session
+        // Cek transaksi
         if ($request->session()->has('transaction') && $request->session()->has('memberIdTransaction')) {
             $sessionTransaction = $request->session()->get('transaction');
 
             $memberIdSessionTransaction = $request->session()->get('memberIdTransaction');
 
-            // Get user's voucher
+            // Get user voucher
             $vouchers = UserVoucher::where([
                 'user_id' => $memberIdSessionTransaction,
                 'used'    => 0,
             ])->get();
 
-            // Sum total price
+            // Jumlah harga
             $totalPrice = 0;
             foreach ($sessionTransaction as &$transaction) {
                 $totalPrice += $transaction['subTotal'];
@@ -157,8 +157,6 @@ class TransactionController extends Controller
 
         //Cek apakah ada voucher yang digunakan
         if ($request->input('voucher') != 0) {
-            // Ambil banyak potongan dari database
-
             $userVoucher = UserVoucher::where('id', $request->input('voucher'))->firstOrFail();
             if (!$userVoucher->voucher) {
                 abort(404);
@@ -166,7 +164,6 @@ class TransactionController extends Controller
 
             $discount = $userVoucher->voucher->discount_value;
 
-            // Kurangi harga dengan potongan
             $totalPrice -= $discount;
             if ($totalPrice < 0) {
                 $totalPrice = 0;
@@ -177,16 +174,13 @@ class TransactionController extends Controller
             $userVoucher->save();
         }
 
-        // Cek apakah menggunakan service type non reguler
         $cost = 0;
         if ($request->input('service-type') != 0) {
             $serviceTypeCost = ServiceType::where('id', $request->input('service-type'))->firstOrFail();
             $cost = $serviceTypeCost->cost;
-            // Tambahkan harga dengan cost
             $totalPrice += $cost;
         }
 
-        // Check if payment < total
         if ($request->input('payment-amount') < $totalPrice) {
             return redirect()->route('admin.transactions.create')
                 ->with('error', 'Pembayaran kurang');
